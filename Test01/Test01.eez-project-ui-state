@@ -2,6 +2,7 @@
   "navigation": {
     "selectedUserPageObject": "[Test01.eez-project]:/userPages/0",
     "selectedGlobalVariableObject": "[Test01.eez-project]:/variables/globalVariables/2",
+    "selectedStyleObject": "[Test01.eez-project]:/lvglStyles/styles/2/childStyles/0",
     "selectedBitmapObject": "[Test01.eez-project]:/bitmaps/0",
     "subnavigationSelectedItems": {
       "variables-tab/sub-navigation/selected-item": "Global"
@@ -183,7 +184,6 @@
               "type": "tabset",
               "id": "EDITORS",
               "weight": 54.618473895582326,
-              "selected": 1,
               "enableDeleteWhenEmpty": false,
               "enableClose": false,
               "children": [
@@ -998,22 +998,29 @@
     "[Test01.eez-project]:/userPages/0[flow-state]": {
       "selection": {
         "0": {
-          "1": {
+          "0": {
             "0": {},
             "1": {},
             "2": {}
           },
-          "2": {
-            "$selected": true
+          "1": {
+            "0": {
+              "0": {},
+              "1": {}
+            },
+            "1": {
+              "0": {},
+              "1": {}
+            }
           }
         }
       },
       "transform": {
         "translate": {
-          "x": -152.83267602233923,
-          "y": -174.63495124816882
+          "x": -179.32015972649913,
+          "y": -304.21598892781253
         },
-        "scale": 0.67
+        "scale": 0.75
       },
       "timeline": {
         "isEditorActive": false,
@@ -1041,8 +1048,32 @@
       }
     },
     "[Test01.eez-project]:/lvglStyles/styles[tree-state]": {
-      "0": {},
-      "1": {}
+      "0": {
+        "$selected": true
+      },
+      "1": {
+        "$selected": true
+      },
+      "2": {
+        "0": {
+          "$selected": true
+        }
+      },
+      "3": {
+        "$selected": true
+      },
+      "4": {
+        "$selected": true
+      },
+      "5": {
+        "$selected": true
+      },
+      "6": {
+        "$selected": true
+      },
+      "7": {
+        "$selected": true
+      }
     }
   },
   "activeOutputSection": 0,
@@ -1068,7 +1099,8 @@
     "MISCELLANEOUS",
     "PADDING",
     "MARGIN",
-    "BACKGROUND"
+    "BACKGROUND",
+    "BORDER"
   ],
   "showInactiveFlowsInDebugger": true
 }
